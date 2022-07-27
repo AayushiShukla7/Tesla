@@ -1,10 +1,10 @@
 <template>
-  <div style="background-color:black;">
+  <div style="background-color:black;margin-top:-10px;">
     
     <div class="background" style="display:table;" fluid>
         <div style="display:table-cell;vertical-align:bottom;padding-bottom:50px;">
 
-            <v-row class="mt-8">
+            <v-row class="mt-8 pb-0">
                 <v-col cols="8">
                     <h1 class="white--text font-weight-light text-right">Battery</h1>
                     <p class="white--text text-right">Long Range</p>
@@ -18,7 +18,7 @@
                 <v-col cols="1"></v-col>
             </v-row>
 
-            <v-row>
+            <v-row class="mt-0 pb-0">
                 <v-col cols="8">
                     <h1 class="white--text font-weight-light text-right">Acceleration</h1>
                     <p class="white--text text-right">
@@ -34,7 +34,7 @@
                 <v-col cols="1"></v-col>
             </v-row>
 
-            <v-row>
+            <v-row class="mt-0 pb-0">
                 <v-col cols="8">
                     <h1 class="white--text font-weight-light text-right">Range</h1>
                     <p class="white--text text-right">
@@ -50,7 +50,7 @@
                 <v-col cols="1"></v-col>
             </v-row>
 
-            <v-row>
+            <v-row class="mt-0 pb-0">
                 <v-col cols="8">
                     <h1 class="white--text font-weight-light text-right">Drive</h1>
                     <p class="white--text text-right">
@@ -66,7 +66,7 @@
                 <v-col cols="1"></v-col>
             </v-row>
 
-            <v-row>
+            <v-row class="mt-0 pb-0">
                 <v-col cols="8">
                     <h1 class="white--text font-weight-light text-right">Seating</h1>
                     <p class="white--text text-right">
@@ -82,7 +82,7 @@
                 <v-col cols="1"></v-col>
             </v-row>
 
-            <v-row>
+            <v-row class="mt-0 pb-0">
                 <v-col cols="8">
                     <h1 class="white--text font-weight-light text-right">Wheels</h1>
                     <p class="white--text text-right">
@@ -111,7 +111,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     .background {
         background-image: url('../../public/tesla-specs.jpeg');
         background-size: cover;

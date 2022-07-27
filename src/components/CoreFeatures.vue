@@ -5,7 +5,7 @@
         <div style="display:table-cell;vertical-align:bottom;padding-bottom:50px;">
             <v-row>
                 <v-col>
-                    <!-- <i class="fa-regular fa-gauge-simple-min fa-spin"></i> -->
+                    <!-- <i class="fa-regular fa-gauge-max"></i> -->
                     <h1 class="white--text font-weight-light text-right">3.1 s</h1>
                     <p class="white--text text-right">0-60 mph*</p>
                 </v-col>
@@ -32,11 +32,13 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     .background {
         background-image: url('../../public/tesla-core-features.jpg');
         background-size: cover;
-        width: 70%;
+        background-repeat:   no-repeat;
+        background-position: center center;
+        width: 100%;
         height: 70vh;
     }
 </style>

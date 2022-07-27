@@ -4,7 +4,8 @@
         <core-features></core-features>    
         <specifications></specifications>
         <interior></interior> 
-        <!-- <details></details> -->
+        <core-details></core-details>
+        <order-now></order-now>
     </div>  
 </template>
 
@@ -13,7 +14,8 @@ import Promo from '@/components/Promo.vue'
 import Specifications from '@/components/Specifications.vue'
 import Interior from '@/components/Interior.vue'
 import CoreFeatures from '@/components/CoreFeatures.vue'
-import Details from '@/components/Details.vue'
+import CoreDetails from '@/components/CoreDetails.vue'
+import OrderNow from '@/components/OrderNow.vue'
 
 export default {
     components: { 
@@ -21,7 +23,8 @@ export default {
         Specifications, 
         Interior, 
         CoreFeatures,
-        Details 
+        CoreDetails,
+        OrderNow 
     },
 
 }
